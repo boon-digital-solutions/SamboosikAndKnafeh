@@ -16,6 +16,9 @@ The website is fully functional with:
 
 ## Recent Changes
 - February 2026: Initial website creation with all sections complete
+- February 2026: Added comprehensive data-testid attributes for testing
+- February 2026: Replaced literal colors with semantic tokens for theming consistency
+- February 2026: Enhanced SEO meta tags with absolute URLs and theme-color
 
 ## User Preferences
 - Agency-quality design with warm, elegant color palette
