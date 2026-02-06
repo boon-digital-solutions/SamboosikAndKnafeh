@@ -119,7 +119,7 @@ function HeroSection() {
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
             data-testid="text-hero-description"
           >
-            Two beloved orange cats with unique personalities, heartwarming stories, 
+            Two beloved cats with unique personalities, heartwarming stories, 
             and an unforgettable bond with their family.
           </motion.p>
           
