@@ -22,7 +22,7 @@ The website is fully functional with:
 
 ## User Preferences
 - Agency-quality design with warm, elegant color palette
-- Green primary color scheme
+- Orange/amber primary color scheme to match the cats
 - Playfair Display for display headings, Plus Jakarta Sans for body text
 - Framer Motion animations for smooth interactions
 
@@ -54,10 +54,10 @@ client/src/
 All cat photos are stored in `attached_assets/` and imported directly into the React components.
 
 ## Design Tokens
-The color scheme uses green and soft cream tones:
-- Primary: `145 55% 38%` (rich green)
-- Background: `140 15% 96%` (soft green-tinted cream)
-- Card: `140 18% 98%` (off-white with green tint)
+The color scheme uses warm orange and cream tones:
+- Primary: `24 75% 50%` (warm orange)
+- Background: `35 30% 96%` (warm cream)
+- Card: `35 35% 98%` (off-white)
 
 Both light and dark themes are configured in `client/src/index.css`.
 
