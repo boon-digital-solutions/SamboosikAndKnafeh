@@ -119,7 +119,7 @@ function HeroSection() {
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
             data-testid="text-hero-description"
           >
-            Two beloved cats with unique personalities, heartwarming stories, 
+            Two beloved orange cats with unique personalities, heartwarming stories, 
             and an unforgettable bond with their family.
           </motion.p>
           
@@ -357,8 +357,8 @@ function ProfilesSection() {
             name="Samboosik"
             nickname="Mr. Boosik, Basboos"
             adoptedYear="Adopted 2018"
-            image={samboosikCouch}
-            secondImage={samboosikCouch2}
+            image={knafehTree}
+            secondImage={knafehTent}
             description="Mr. Boosik is a dignified gentleman. He was originally a foster cat but his mom fell in love and had to keep him. When he was young, he was a master escape artist and expert hider. He hated men (except for his jiddo), was terrified of storms, and was anxiously attached to his mom. Now, his favorite humans are his Khalto Hala and his jiddo. He loves to talk to people in little chirps and monitor the activities of the other cats in the house."
             likes="Food (especially cheese) and his favorite humans"
             dislikes="Other cats - but his biggest enemy is Knafeh"
@@ -370,8 +370,8 @@ function ProfilesSection() {
             name="Knafeh"
             nickname="Noofi, Nafnouf"
             adoptedYear="Adopted 2021"
-            image={knafehTree}
-            secondImage={knafehTent}
+            image={samboosikCouch}
+            secondImage={samboosikCouch2}
             description="Knafeh is the sweetest little maniac. He was rescued when he was just a stray kitten. When he was young, he used to scream nonstop outside of his mom's bedroom so she would wake up to feed him. He was also known to eat anything and everything left on the counter. Now, he loves to go outside and explore the neighborhood. He is notorious for staying out way too late, making his teta worry all night. He is the cuddliest and most loving of all the cats."
             likes="Food and sneaking away to go outside (we suspect he has another family)"
             dislikes="His cousin Zaina"
