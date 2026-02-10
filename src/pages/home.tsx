@@ -10,23 +10,23 @@ import {
   Users,
   Camera,
 } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { Badge } from "../components/ui/badge";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { ThemeToggle } from "../components/theme-toggle";
 
-import logoImage from "@assets/ChatGPT_Image_Feb_6,_2026,_05_28_12_PM_1770416929391.png";
-import samboosikTunnel from "@assets/IMG_0331_1770324392867.webp";
-import samboosikCouch from "@assets/IMG_0180_1770324392873.webp";
-import samboosikCouch2 from "@assets/IMG_0227_1770324392880.webp";
-import knafehPetted from "@assets/IMG_5997_1770324392872.webp";
-import knafehSink from "@assets/IMG_3672_1770324392874.webp";
-import knafehTent from "@assets/IMG_2389_1770324392876.webp";
-import knafehTree from "@assets/IMG_8173_1770324392879.webp";
-import bothCuddling from "@assets/IMG_9485_1770324392877.webp";
-import bothCurled from "@assets/IMG_9659_1770324392878.webp";
-import familyKitchen from "@assets/IMG_8830_1770324392873.webp";
-import zainaDog from "@assets/IMG_1900_1770324392875.webp";
+import logoImage from "/assets/ChatGPT_Image_Feb_6,_2026,_05_28_12_PM_1770416929391.png";
+import samboosikTunnel from "/assets/IMG_0331_1770324392867.webp";
+import samboosikCouch from "/assets/IMG_0180_1770324392873.webp";
+import samboosikCouch2 from "/assets/IMG_0227_1770324392880.webp";
+import knafehPetted from "/assets/IMG_5997_1770324392872.webp";
+import knafehSink from "/assets/IMG_3672_1770324392874.webp";
+import knafehTent from "/assets/IMG_2389_1770324392876.webp";
+import knafehTree from "/assets/IMG_8173_1770324392879.webp";
+import bothCuddling from "/assets/IMG_9485_1770324392877.webp";
+import bothCurled from "/assets/IMG_9659_1770324392878.webp";
+import familyKitchen from "/assets/IMG_8830_1770324392873.webp";
+import zainaDog from "/assets/IMG_1900_1770324392875.webp";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -57,7 +57,11 @@ function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2" data-testid="logo-nav">
-            <img src={logoImage} alt="Samboosik & Knafeh logo" className="w-8 h-8 rounded-full object-cover" />
+            <img
+              src={logoImage}
+              alt="Samboosik & Knafeh logo"
+              className="w-8 h-8 rounded-full object-cover"
+            />
             <span
               className="font-display text-xl font-semibold"
               data-testid="text-logo"
@@ -948,7 +952,11 @@ function Footer() {
             className="flex items-center gap-3 mb-4"
             data-testid="logo-footer"
           >
-            <img src={logoImage} alt="Samboosik & Knafeh logo" className="w-12 h-12 rounded-full object-cover" />
+            <img
+              src={logoImage}
+              alt="Samboosik & Knafeh logo"
+              className="w-12 h-12 rounded-full object-cover"
+            />
             <span
               className="font-display text-xl font-semibold"
               data-testid="text-footer-title"
@@ -968,7 +976,17 @@ function Footer() {
             data-testid="text-footer-love"
           >
             <Heart className="w-4 h-4 text-primary" />
-            <span>Made with love for two special cats</span>
+            <span>
+              Made with love for two special cats by{" "}
+              <a
+                href="boondigitalsolutions.com"
+                target="_blank"
+                className="underline"
+              >
+                Boon Digital Solutions
+              </a>
+              .
+            </span>
           </div>
         </div>
       </div>
