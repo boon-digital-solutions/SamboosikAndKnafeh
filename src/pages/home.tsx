@@ -570,8 +570,8 @@ function GallerySection() {
     },
     {
       src: samboosikTunnel,
-      alt: "Samboosik in his tunnel",
-      caption: "Samboosik in his favorite tunnel",
+      alt: "Knafeh in his tunnel",
+      caption: "Knafeh in his favorite tunnel",
     },
     {
       src: knafehPetted,
@@ -580,8 +580,8 @@ function GallerySection() {
     },
     {
       src: knafehSink,
-      alt: "Knafeh in the sink",
-      caption: "Knafeh's unique relaxation spot",
+      alt: "Samboosik in the sink",
+      caption: "Samboosik's unique relaxation spot",
     },
     {
       src: familyKitchen,
